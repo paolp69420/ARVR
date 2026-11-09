@@ -35,5 +35,11 @@ int main()
 
 	printf("il numero piu piccolo e': %d \n", numeroPiccolo);
 
-	printf("la media e': %d", (numeri[0] + numeri[1] + numeri[2] + numeri[3] + numeri[4]) / (sizeof(numeri) / sizeof(numeri[0]))); 
+	int somma = 0;
+	for (int i = 0; i < (sizeof(numeri) / sizeof(numeri[0])); i++)
+	{
+		somma += numeri[i];
+	}
+
+	printf("la media e': %d", somma / (sizeof(numeri) / sizeof(numeri[0])));
 }
