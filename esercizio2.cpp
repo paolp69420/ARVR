@@ -35,5 +35,5 @@ int main()
 
 	printf("il numero piu piccolo e': %d \n", numeroPiccolo);
 
-	printf("la media e': %d", (numeri[0] + numeri[1] + numeri[2] + numeri[3] + numeri[4]) / (sizeof(numeri) / sizeof(numeri[0])));
+	printf("la media e': %d", (numeri[0] + numeri[1] + numeri[2] + numeri[3] + numeri[4]) / (sizeof(numeri) / sizeof(numeri[0]))); 
 }
