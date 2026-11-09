@@ -15,7 +15,7 @@ int main()
 	int numeroPiccolo = numeri[0];
 
 	int numeroGrande = numeri[0];
-
+	
 	for (int i = 0; i < (sizeof(numeri) / sizeof(numeri[0])); i++)
 	{
 		if (numeroPiccolo > numeri[i])
